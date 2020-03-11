@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WanandroidX</string>
     <string name="welcome">hello jectpack</string>
+    <string name="menu_search">搜索</string>
 </resources>
