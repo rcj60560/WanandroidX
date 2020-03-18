@@ -13,6 +13,7 @@ import androidx.multidex.MultiDex;
 
 import com.luocj.wanandroidx.MainActivity;
 import com.luocj.wanandroidx.R;
+import com.luocj.wanandroidx.actyivity.LoginActivity;
 
 /**
  * 欢迎页面
@@ -30,7 +31,7 @@ public class SplashAvtivity extends AppCompatActivity {
                 .postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        startActivity(new Intent(SplashAvtivity.this, MainActivity.class));
+                        startActivity(new Intent(SplashAvtivity.this, LoginActivity.class));
                         finish();
                     }
                 }, 2000);

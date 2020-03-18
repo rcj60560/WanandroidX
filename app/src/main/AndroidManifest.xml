@@ -18,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".actyivity.LoginActivity" />
+        <activity android:name=".actyivity.TestActivity" />
     </application>
 
 </manifest>
